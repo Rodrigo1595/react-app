@@ -46,7 +46,7 @@ jobs:
          cd hello-world-azure
          npm start &
          npx wait-on --timeout 60000
-     - name: Run visual tests 👁
-       run: |
-         cd hello-world-azure
-         npm run test:visual
+    #  - name: Run visual tests 👁
+    #    run: |
+    #      cd hello-world-azure
+    #      npm run test:visual
